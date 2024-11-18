@@ -1,3 +1,4 @@
+create database supercar_auction;
 use supercar_auction;
 
 CREATE TABLE cars (
