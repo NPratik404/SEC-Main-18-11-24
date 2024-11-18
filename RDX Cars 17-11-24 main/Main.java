@@ -206,7 +206,7 @@ public class Main {
                     // Exit
                     System.out.println("Exiting...");
                     scanner.close();
-                    System.exit(0);
+                    System.exit(0);//The System.exit(0) method is invoked, which terminates the Java application with a status code of 0. (A status code of 0 typically indicates a successful termination.)
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
