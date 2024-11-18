@@ -2,7 +2,7 @@ create database supercar_auction;
 use supercar_auction;
 
 CREATE TABLE cars (
-car_id int primary key,
+car_id int primary key auto_increment,
 car_model_name varchar(100),
 car_model_year int,
 car_location varchar(50),
